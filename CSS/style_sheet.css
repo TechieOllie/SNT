@@ -1,17 +1,19 @@
 body {
-  background-color: lightgray;
+  background-image: url("../Images/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
   font-size: 50px;
   text-shadow: 1px 1px 1px;
-  color: teal;
+  color: white;
   text-align: center;
 }
 
 a:link, a:visited {
   background-color: #gray;
-  color: teal;
+  color: white;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
@@ -19,7 +21,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  background-color: darkgray;
+  background-color: violet;
 }
 
 ul {
@@ -27,7 +29,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: lightgray;
+  background-color: transparent;
   position: sticky;
 }
 
@@ -44,5 +46,5 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: violet;
 }
