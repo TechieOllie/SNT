@@ -1,9 +1,10 @@
 body {
-  background-color: lightblue;
+  background-color: lightgray;
 }
 
 #Title {
   font-size: 50px;
   text-shadow: 1px 1px 1px;
   color: teal;
+  text-align: center;
 }
