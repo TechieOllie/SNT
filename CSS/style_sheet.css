@@ -2,3 +2,8 @@ body {
   background-color: lightblue;
   font-style: nirvana;
 }
+
+Title {
+  font-size: 14px;
+  text-shadow: 0 1px 0;
+}
