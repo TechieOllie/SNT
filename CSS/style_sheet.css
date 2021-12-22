@@ -2,7 +2,7 @@ body {
   background-color: lightgray;
 }
 
-#Title {
+#title {
   font-size: 50px;
   text-shadow: 1px 1px 1px;
   color: teal;
@@ -11,7 +11,7 @@ body {
 
 a:link, a:visited {
   background-color: #gray;
-  color: white;
+  color: teal;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
