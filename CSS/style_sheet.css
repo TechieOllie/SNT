@@ -91,11 +91,6 @@ a:hover, a:active {
   padding: 70px;
 }
 
-.column.Homepage {
-  float: center;
-  padding: 70px;
-}
-
 /* Left and right column */
 .column.side {
   width: 25%;
