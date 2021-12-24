@@ -132,4 +132,5 @@ a:hover, a:active {
 
 @media screen and (max-width: 600px) {
   .topnav {
-    float: none;}
+    float: none;
+  }
