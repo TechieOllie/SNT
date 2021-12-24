@@ -19,7 +19,7 @@ body {
 /* Style the header */
 .header {
   background-color: transparent;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   color: white;
 }
@@ -28,6 +28,8 @@ body {
 .topnav {
   overflow: hidden;
   background-color: transparent;
+  position: sticky;
+  top: 0;
 }
 
 /* Style the topnav links */
@@ -85,11 +87,21 @@ a:hover, a:active {
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 10px;
+  padding: 70px;
+}
+
+.column.Homepage {
+  float: center;
+  padding: 70px;
 }
 
 /* Left and right column */
 .column.side {
+  width: 25%;
+}
+
+/* Left and right column */
+.column.side2 {
   width: 25%;
 }
 
@@ -100,6 +112,7 @@ a:hover, a:active {
 /* Middle column 2 */
 .column.middle2 {
   width: 25%;
+  align: center;
 }
 
 /* Clear floats after the columns */
@@ -111,7 +124,11 @@ a:hover, a:active {
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column.side, .column.middle1, .column.middle2 {
+  .column.side, .column.middle1, .column.middle2, .column.Homepage, .column.side2 {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .topnav {
+    float: none;}
