@@ -130,13 +130,22 @@ a:hover, a:active {
   padding: 100px;
   width: 50%;
   align: center;
-  text-align: center;
+  text-align: left;
   position: static;
   top: 50%;
   left: 50%;
   color: lightgray;
   text-shadow: 2px;
   font-size: 20px;
+}
+
+.right.text {
+padding-right: 40px;
+position: static;
+width: 100%;
+color: lightgray;
+text-shadow: 2px;
+font-size: 16px;
 }
 
 .column.middle.image {
