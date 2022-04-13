@@ -116,7 +116,7 @@ a:hover, a:active {
 .column.middle3 {
   padding: 100px;
   width: 50%;
-  align: center;
+  box-align: center;
   text-align: center;
   position: static;
   top: 50%;
@@ -129,7 +129,7 @@ a:hover, a:active {
 .column.middle4 {
   padding: 100px;
   width: 50%;
-  align: center;
+  box-align: center;
   text-align: left;
   position: static;
   top: 50%;
@@ -151,7 +151,7 @@ font-size: 16px;
 .column.middle.image {
   padding: 100px;
   width: 50%;
-  align: center;
+  box-align: center;
   text-align: center;
   position: static;
   top: 50%;
@@ -165,7 +165,7 @@ font-size: 16px;
 .column.middle5 {
   padding: 100px;
   width: 50%;
-  align: center;
+  box-align: center;
   text-align: center;
   position: absolute;
   top: 50%;
@@ -178,7 +178,7 @@ font-size: 16px;
 .column.middle6 {
   padding: 100px;
   width: 50%;
-  align: center;
+  box-align: center;
   text-align: center;
   position: absolute;
   top: 50%;
